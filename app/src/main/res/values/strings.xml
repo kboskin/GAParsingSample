@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GASample</string>
+    <string name="main_text_how_to_use">Hi! All the logic goes under this button, and account(s) are displayed in logs. Press and check</string>
+    <string name="main_button_start_text">Press to start flow</string>
+</resources>
