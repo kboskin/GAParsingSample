@@ -1,0 +1,13 @@
+Here is described what to take a look at
+
+The main and most interesting - CampaignTrackingReceiver. Check the manifest, no dependencies to GA,
+but when user installs application gplay sands a broadcast with name="com.android.vending.INSTALL_REFERRER"
+according to docs https://developers.google.com/analytics/devguides/collection/android/v4/campaigns
+
+This receiver takes this brodcast and parses incoming string to desired utm_* sources
+Here you will find TODO
+Which will mark place where developer should simply place logic of sending events to analytics
+
+To test, just use raw adb install with custom intent
+https://developers.google.com/analytics/solutions/testing-play-campaigns
+
